@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Área y Perímetro</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_poligonos">Polígonos</string>
+    <string name="title_activity_circunferencias">Circunferencias</string>
+    <string name="title_activity_triangulo">Triángulo</string>
+    <string name="title_activity_cuadrado">Cuadrado</string>
+    <string name="title_activity_rectangulo">Rectángulo</string>
+    <string name="title_activity_rombo">Rombo</string>
+    <string name="title_activity_trapecio">Trapecio</string>
+    <string name="title_activity_paralelogramo">Paralelogramo</string>
+    <string name="title_activity_poligonoregular">Polígono Regular</string>
+    <string name="title_activity_area_circulo">Área Círculo/Longitud Circunferencia</string>
+    <string name="title_activity_sector_circular">Sector Circular/Longitud del Arco</string>
+    <string name="title_activity_corona_circular">Corona Circular</string>
+    <string name="title_activity_trapecio_circular">Trapecio Circular</string>
+</resources>

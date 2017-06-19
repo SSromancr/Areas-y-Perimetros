@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ssroman.area_y_perimetro">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Poligonos"
+            android:label="@string/title_activity_poligonos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Circunferencias"
+            android:label="@string/title_activity_circunferencias"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Triangulo"
+            android:label="@string/title_activity_triangulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Cuadrado"
+            android:label="@string/title_activity_cuadrado"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Rectangulo"
+            android:label="@string/title_activity_rectangulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Rombo"
+            android:label="@string/title_activity_rombo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Trapecio"
+            android:label="@string/title_activity_trapecio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Paralelogramo"
+            android:label="@string/title_activity_paralelogramo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Poligonoregular"
+            android:label="@string/title_activity_poligonoregular"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AreaCirculo"
+            android:label="@string/title_activity_area_circulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SectorCircular"
+            android:label="@string/title_activity_sector_circular"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CoronaCircular"
+            android:label="@string/title_activity_corona_circular"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TrapecioCircular"
+            android:label="@string/title_activity_trapecio_circular"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/SSRoman/Documents/DOCUMENTOS_AGUSTIN/PROYECTOS_ANDROID/Areas_y_Perimetros/Aplicacion/Area_y_perimetro/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/SSRoman/Documents/DOCUMENTOS_AGUSTIN/PROYECTOS_ANDROID/Areas_y_Perimetros/Aplicacion/Area_y_perimetro/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_675ce33ce9ef3ef50b273cbc4ef9b66471b3e92a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/SSRoman/Documents/DOCUMENTOS_AGUSTIN/PROYECTOS_ANDROID/Areas_y_Perimetros/Aplicacion/Area_y_perimetro/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7af81e1d2fc76d77972c39b30732faa4436343aa">
+        <dex dex="/Users/SSRoman/Documents/DOCUMENTOS_AGUSTIN/PROYECTOS_ANDROID/Areas_y_Perimetros/Aplicacion/Area_y_perimetro/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_38c4b0be315e236c52a1ce8c398f8b7c33f3bbad/classes.dex" />
+    </item>
+
+</items>
