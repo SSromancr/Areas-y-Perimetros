@@ -24,5 +24,8 @@
     <string name="title_activity_email">EmailActivity</string>
     <string name="title_activity_acerca_popup">AcercaPopup</string>
     <string name="title_activity_mas_apps">Más Apps</string>
+    <string name="appleatorios">Aplicación que genera diversos tipos de eventos aleatorios: números, moneda, dado, contraseña, etc...</string>
+    <string name="title_activity_pantalla_inicial">PantallaInicial</string>
+
 
 </resources>

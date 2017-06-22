@@ -9,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageButton;
 
 public class MasApps extends AppCompatActivity {
 
@@ -18,6 +19,14 @@ public class MasApps extends AppCompatActivity {
         setContentView(R.layout.activity_mas_apps);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        ImageButton appleatorios = (ImageButton)findViewById(R.id.BTN_Appleatorios);
+        appleatorios.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=app.ejemplo.ssroman.appleatorios")));
+            }
+        });
 
     }
 
