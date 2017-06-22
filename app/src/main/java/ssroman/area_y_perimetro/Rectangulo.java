@@ -8,6 +8,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.DecimalFormat;
+
 public class Rectangulo extends AppCompatActivity {
 
     @Override
@@ -35,8 +37,10 @@ public class Rectangulo extends AppCompatActivity {
             areaRectangulo = base * altura;
             perimetroRectangulo = 2 * (base + altura);
 
-            resultarea.setText("Área: " + areaRectangulo);
-            resultperimetro.setText("Perímetro: " + perimetroRectangulo);
+            DecimalFormat df = new DecimalFormat("0.00");
+
+            resultarea.setText("Área: " + df.format(areaRectangulo));
+            resultperimetro.setText("Perímetro: " + df.format(perimetroRectangulo));
 
             resultarea.setVisibility(View.VISIBLE);
             resultperimetro.setVisibility(View.VISIBLE);

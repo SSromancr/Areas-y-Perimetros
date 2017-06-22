@@ -8,6 +8,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.DecimalFormat;
+
 public class Triangulo extends AppCompatActivity {
 
     @Override
@@ -38,8 +40,10 @@ public class Triangulo extends AppCompatActivity {
             areaTriangulo = (l2 * altura) / 2;
             perimetroTriangulo = l1 + l2 + l3;
 
-            resultarea.setText("Área: " + areaTriangulo);
-            resultperimetro.setText("Perímetro: " + perimetroTriangulo);
+            DecimalFormat df = new DecimalFormat("0.00");
+
+            resultarea.setText("Área: " + df.format(areaTriangulo));
+            resultperimetro.setText("Perímetro: " + df.format(perimetroTriangulo));
 
             resultarea.setVisibility(View.VISIBLE);
             resultperimetro.setVisibility(View.VISIBLE);

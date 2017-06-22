@@ -8,6 +8,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.DecimalFormat;
+
 public class Paralelogramo extends AppCompatActivity {
 
     @Override
@@ -37,8 +39,10 @@ public class Paralelogramo extends AppCompatActivity {
             areaParalelogramo = base * altura;
             perimetroParalelogramo = 2 * (base + lado);
 
-            resultarea.setText("Área: " + areaParalelogramo);
-            resultperimetro.setText("Perímetro: " + perimetroParalelogramo);
+            DecimalFormat df = new DecimalFormat("0.00");
+
+            resultarea.setText("Área: " + df.format(areaParalelogramo));
+            resultperimetro.setText("Perímetro: " + df.format(perimetroParalelogramo));
 
             resultarea.setVisibility(View.VISIBLE);
             resultperimetro.setVisibility(View.VISIBLE);

@@ -70,6 +70,14 @@
         <activity
             android:name=".TrapecioCircular"
             android:label="@string/title_activity_trapecio_circular"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EmailActivity"
+            android:label="@string/title_activity_email"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AcercaPopup"
+            android:label="@string/title_activity_acerca_popup"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

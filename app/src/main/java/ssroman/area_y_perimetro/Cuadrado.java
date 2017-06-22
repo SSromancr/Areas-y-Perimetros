@@ -8,6 +8,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.DecimalFormat;
+
 public class Cuadrado extends AppCompatActivity {
 
     @Override
@@ -33,8 +35,10 @@ public class Cuadrado extends AppCompatActivity {
             areaCuadrado = l1 * l1;
             perimetroCuadrado = l1 * 4;
 
-            resultarea.setText("Área: " + areaCuadrado);
-            resultperimetro.setText("Perímetro: " + perimetroCuadrado);
+            DecimalFormat df = new DecimalFormat("0.00");
+
+            resultarea.setText("Área: " + df.format(areaCuadrado));
+            resultperimetro.setText("Perímetro: " + df.format(perimetroCuadrado));
 
             resultarea.setVisibility(View.VISIBLE);
             resultperimetro.setVisibility(View.VISIBLE);

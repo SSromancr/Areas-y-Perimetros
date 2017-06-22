@@ -8,6 +8,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.DecimalFormat;
+
 public class Poligonoregular extends AppCompatActivity {
 
     @Override
@@ -36,8 +38,10 @@ public class Poligonoregular extends AppCompatActivity {
             perimetroPoligono = n_lados * lado;
             areaPoligono = (perimetroPoligono * apotema) / 2;
 
-            resultarea.setText("Área: " + areaPoligono);
-            resultperimetro.setText("Perímetro: " + perimetroPoligono);
+            DecimalFormat df = new DecimalFormat("0.00");
+
+            resultarea.setText("Área: " + df.format(areaPoligono));
+            resultperimetro.setText("Perímetro: " + df.format(perimetroPoligono));
 
             resultarea.setVisibility(View.VISIBLE);
             resultperimetro.setVisibility(View.VISIBLE);

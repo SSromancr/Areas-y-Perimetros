@@ -8,6 +8,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.DecimalFormat;
+
 public class Rombo extends AppCompatActivity {
 
     @Override
@@ -37,8 +39,10 @@ public class Rombo extends AppCompatActivity {
             areaRombo = (D * d) / 2;
             perimetroRombo = 4 * l;
 
-            resultarea.setText("Área: " + areaRombo);
-            resultperimetro.setText("Perímetro: " + perimetroRombo);
+            DecimalFormat df = new DecimalFormat("0.00");
+
+            resultarea.setText("Área: " + df.format(areaRombo));
+            resultperimetro.setText("Perímetro: " + df.format(perimetroRombo));
 
             resultarea.setVisibility(View.VISIBLE);
             resultperimetro.setVisibility(View.VISIBLE);

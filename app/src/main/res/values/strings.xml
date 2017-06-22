@@ -14,4 +14,15 @@
     <string name="title_activity_sector_circular">Sector Circular/Longitud del Arco</string>
     <string name="title_activity_corona_circular">Corona Circular</string>
     <string name="title_activity_trapecio_circular">Trapecio Circular</string>
+    <string name="formula_area_circulo">A= &#960;*r<sup><small>2</small></sup></string>
+    <string name="longitud_circunferencia">L= 2*&#960;*r</string>
+    <string name="angulo_alfa">&#945;</string>
+    <string name="sector_circular">A=(&#945;*&#960;*r<sup><small>2</small></sup>)/360º</string>
+    <string name="longitud_arco">L=(2*&#945;*&#960;*r)/360º</string>
+    <string name="corona_circular">A=&#960;*(R<sup><small>2</small></sup> - r<sup><small>2</small></sup>)</string>
+    <string name="trapecio_circular">A=(&#960;*(R<sup><small>2</small></sup> - r<sup><small>2</small></sup>)*&#945;)/360</string>
+    <string name="title_activity_email">EmailActivity</string>
+    <string name="title_activity_acerca_popup">AcercaPopup</string>
+
+
 </resources>

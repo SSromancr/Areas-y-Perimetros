@@ -8,6 +8,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.DecimalFormat;
+
 public class Trapecio extends AppCompatActivity {
 
     @Override
@@ -38,8 +40,10 @@ public class Trapecio extends AppCompatActivity {
             areaTrapecio = (b_pequena + B_grande) * altura / 2;
             perimetroTrapecio = 2*lado + b_pequena + B_grande;
 
-            resultarea.setText("Área: " + areaTrapecio);
-            resultperimetro.setText("Perímetro: " + perimetroTrapecio);
+            DecimalFormat df = new DecimalFormat("0.00");
+
+            resultarea.setText("Área: " + df.format(areaTrapecio));
+            resultperimetro.setText("Perímetro: " + df.format(perimetroTrapecio));
 
             resultarea.setVisibility(View.VISIBLE);
             resultperimetro.setVisibility(View.VISIBLE);
