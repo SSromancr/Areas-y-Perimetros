@@ -23,6 +23,6 @@
     <string name="trapecio_circular">A=(&#960;*(R<sup><small>2</small></sup> - r<sup><small>2</small></sup>)*&#945;)/360</string>
     <string name="title_activity_email">EmailActivity</string>
     <string name="title_activity_acerca_popup">AcercaPopup</string>
-
+    <string name="title_activity_mas_apps">Más Apps</string>
 
 </resources>

@@ -78,6 +78,10 @@
         <activity
             android:name=".AcercaPopup"
             android:label="@string/title_activity_acerca_popup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MasApps"
+            android:label="@string/title_activity_mas_apps"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

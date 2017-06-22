@@ -64,6 +64,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.contacto:
                 startActivity(new Intent(MainActivity.this, EmailActivity.class));
                 break;
+            case R.id.masapps:
+                startActivity(new Intent(MainActivity.this, MasApps.class));
+                break;
             case R.id.acerca:
                 AlertDialog.Builder emergente = new AlertDialog.Builder(MainActivity.this);
                 View vista = getLayoutInflater().inflate(R.layout.activity_acerca_popup, null);
